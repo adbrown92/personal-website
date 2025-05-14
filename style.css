@@ -76,7 +76,7 @@ body {
     display: grid;
     grid-template-columns: auto 1fr;
     font-size: medium;
-    line-height: 1em;
+    line-height: 2em;
 }
 
 main{
