@@ -400,7 +400,18 @@ p{
     cursor: pointer;
 }
 
-.profile-picture{
-    width: 20%;
-    height: 20%;
+.homepage-picturesection{
+    display: flex;
+    justify-content: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#profile-picture{
+    max-width: 500px;
+    max-height: 1000px;
+    width: 50%;
+    height: 50%;
 }
