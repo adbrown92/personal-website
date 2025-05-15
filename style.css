@@ -399,3 +399,8 @@ p{
 .social-buttons:hover{
     cursor: pointer;
 }
+
+.profile-picture{
+    width: 20%;
+    height: 20%;
+}
