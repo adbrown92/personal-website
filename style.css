@@ -391,3 +391,11 @@ p{
         margin: 2em;
     }
 }
+
+.social-buttons{
+    display: flex;
+}
+
+.social-buttons:hover{
+    cursor: pointer;
+}
