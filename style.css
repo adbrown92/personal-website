@@ -249,6 +249,7 @@ main p{
         top: unset;
         bottom: 0;
         justify-content: center;
+        overflow-y: hidden;
 
         > ul{
             padding: 0;
