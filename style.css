@@ -110,7 +110,8 @@ main p{
     top: 0;
     align-self: start;
     transition: 300ms ease-in-out;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     text-wrap: nowrap;
     font-size: medium;
 }
@@ -146,6 +147,7 @@ main p{
 
 .activeclr{
     color: var(--accent-clr);
+    
 }
 
 #sidebar a, #sidebar .dropdown-btn, #sidebar .logo{
@@ -238,7 +240,6 @@ main p{
         padding: 0;
     }
     #sidebar{
-        display: flex;
         height: 60px;
         width: 100%;
         border-right: none;
@@ -307,11 +308,21 @@ main p{
     figure {
         margin-bottom: 2.3em;
     }
+    .social-buttons{
+        display: flex;
+        width: 157px;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: flex-end;
+    }
 }
 
 
 .txtleft{
     display: flex;
+    justify-content: flex-start;
 }
 
 /* justifies text to left side of container */
@@ -394,11 +405,18 @@ p{
 
 .social-buttons{
     display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
 }
 
-.social-buttons:hover{
+.social-buttons-link{
+    display: flex;
+}
+
+.social-buttons-link:hover{
     cursor: pointer;
 }
+
 
 .homepage-picturesection{
     display: flex;
